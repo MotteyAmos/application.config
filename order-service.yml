@@ -17,7 +17,7 @@ spring:
       key-serializer: org.apache.kafka.common.serialization.StringSerializer
       value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
       properties:
-        spring.json.type.mapping: orderConfirmation:com.ecommerce.order.config.OrderConfirmation
+        spring.json.type.mapping: orderConfirmation:com.ecom2.order_service.kafka.OrderConfirmation
 server:
   port: 8070
 
