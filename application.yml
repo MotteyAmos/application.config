@@ -11,4 +11,4 @@ spring:
       override-system-properties: false
 
 
-pet: 1234
+pet: "1234"
