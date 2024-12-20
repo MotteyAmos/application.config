@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ms_pg_sql3:5432/product
+    url: jdbc:postgresql://postgres3:5432/product
     username: root
     password: password123
     driver-class-name: org.postgresql.Driver
